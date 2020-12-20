@@ -3,4 +3,4 @@
 Landing page with responsive design and feedback form(Telegram).
 
 # Stack:
-HTML, CSS, JavaScript, Telegram api.
+HTML, CSS(with Bootstrap), JavaScript(with jQuery), Telegram api.
