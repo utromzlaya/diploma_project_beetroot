@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper container-fluid">
+      <nav class="header navbar navbar-expand-lg navbar-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar__inner container">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#" style="color: #0053bf">
+              <i class="navbar__logo fas fa-anchor"></i> SeaBrokers</a
+            >
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: #0053bf"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link js-linkToTools"
+                  href="#"
+                  style="color: #0053bf"
+                  >Tools</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link js-linkToPromotion"
+                  href="#"
+                  style="color: #0053bf"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link js-linkToContactForm"
+                  href="#"
+                  style="color: #0053bf"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <div class="nav__socials">
+              <i class="socials__item fab fa-twitter-square"></i>
+              <i class="socials__item fab fa-facebook"></i>
+              <i class="socials__item fab fa-instagram"></i>
+              <i class="socials__item fab fa-youtube-square"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main p-4 container">
+        <div class="main__promo mb-5 flex-column flex-lg-row">
+          <div class="promo__text order-lg-1 order-2">
+            <div class="about__title mt-4 text-left">
+              Take Your Investing to the Next Level
+            </div>
+            <div class="about__text my-4 text-lg-left">
+              We provide clients from all over the globe with the ability to
+              invest worldwide at the lowest cost.
+            </div>
+            <div class="about__btn text-center text-lg-left">
+              <button class="py-2 btn btn-primary js-linkToContactForm">
+                become our partner
+              </button>
+            </div>
+          </div>
+          <div class="promo__img float-lg-right order-lg-2 order-1">
+            <img src="./styles/img/main.png" alt="promo image" />
+          </div>
+        </div>
+        <div class="main__promo mb-5 flex-column flex-lg-row">
+          <div class="promo__img order-lg-2 order-1 float-lg-left">
+            <img src="./styles/img/main2.png" alt="promo image" />
+          </div>
+          <div class="promo__text order-lg-2 order-1">
+            <div class="about__title mt-4 title-info text-left">
+              Global Access
+            </div>
+            <div class="about__text-scroll mt-4 text-left">
+              <div
+                class="about__text pr-3 text-scroll__area scrollbar-morpheus-den"
+              >
+                Invest globally in stocks, options, futures, currencies, bonds
+                and funds from a single integrated account. Fund your account in
+                multiple currencies and trade assets denominated in multiple
+                currencies. Access market data 24 hours a day and six days a
+                week. Search for and do business with multiple advisors,
+                brokers, and wealth managers. Access dozens of advisor
+                portfolios, including Smart Beta portfolios, offered by
+                Interactive Advisors. Accredited investors and qualified
+                purchasers can search for, research and invest with hedge funds.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact container-fluid" id="tools">
+        <div
+          class="contact-inner py-5 flex-column flex-md-row container align-items-center"
+        >
+          <div class="contact__promo">
+            <div class="about__title">Speed and reliability</div>
+            <div class="about__text">
+              Each broker undergoes special qualifications and receives a
+              license that is of maximum value to him, since it provides his
+              income. The broker knows how to work in the SeaBrokers system,
+              quickly add your actual rates to the system, promote and sell your
+              services and communicate with clients on your behalf.
+            </div>
+          </div>
+          <div class="contact__img">
+            <img src="./styles/img/slide2.png" alt="promo image" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="promotion py-5 align-items-center justify-content-center container-fluid"
+        id="promotion"
+      >
+        <div class="promotion__card container">
+          <div class="about__title text-center">TRY NOW</div>
+          <div class="card__text mb-3">
+            As soon as the broker has confirmed the transaction with the client
+            at your rate, the booking is created in your personal account. As
+            soon as you have confirmed the booking, it goes directly to your
+            operational department, and your manager can start organizing the
+            transport process. The entire delivery process will be managed in
+            your personal account.
+          </div>
+          <button class="py-2 btn btn-primary js-linkToContactForm">
+            i want to try it!
+          </button>
+        </div>
+      </div>
+
+      <div class="contact container-fluid" id="contactForm">
+        <div
+          class="contact-inner py-5 flex-column align-items-center flex-lg-row container text-center"
+        >
+          <div class="contact__info">
+            <div class="about__title">become our PARTNER in few seconds</div>
+            <div class="info__text">
+              To also find out more about us, please contact:
+            </div>
+          </div>
+          <div class="contact__form flex-column flex-lg-row">
+            <form>
+              <div class="row mb-sm-3">
+                <div class="col-sm">
+                  <input
+                    type="text"
+                    class="input__item text-sm-left form-control py-4"
+                    placeholder="First name *"
+                    required
+                    id="first__name"
+                  />
+                </div>
+                <div class="col-sm">
+                  <input
+                    type="text"
+                    class="input__item text-sm-left form-control py-4"
+                    placeholder="Last name *"
+                    required
+                    id="last__name"
+                  />
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-sm">
+                  <input
+                    type="email"
+                    class="input__item text-sm-left form-control py-4"
+                    placeholder="E-mail *"
+                    required
+                    id="email"
+                  />
+                </div>
+                <div class="col-sm">
+                  <input
+                    type="tel"
+                    class="input__item text-sm-left form-control py-4"
+                    placeholder="Phone *"
+                    required
+                    id="phone"
+                  />
+                </div>
+              </div>
+              <div class="row text-lg-right">
+                <div class="col">
+                  <button class="py-2 form__btn btn btn-primary" id="form__btn">submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer container-fluid">
+        <div class="footer-inner container">
+          <div class="row">
+            <div class="nav__list col-lg">
+              <h5 class="list__title">Company</h5>
+              <p class="list__item">Terms of service</p>
+              <p class="list__item">Shipcoin</p>
+              <p class="list__item">Blog</p>
+              <p class="list__item">Careers</p>
+            </div>
+            <div class="nav__list col-lg">
+              <h5 class="list__title">Partners</h5>
+              <p class="list__item">Plans &#38; Pricing</p>
+              <p class="list__item">Partnership</p>
+            </div>
+            <div class="nav__list col-lg">
+              <h5 class="list__title">Support</h5>
+              <p class="list__item">Contact us &#38; Feedback</p>
+              <p class="list__item">Help</p>
+              <p class="list__item">Privacy</p>
+            </div>
+            <div class="nav__list col-lg">
+              <h5 class="list__title">Contact</h5>
+              <p class="list__item">sea.brokers@gmail.com</p>
+              <p class="list__item">+123456789876</p>
+              <div class="nav__socials">
+                <i class="socials__item fab fa-twitter-square"></i>
+                <i class="socials__item fab fa-facebook"></i>
+                <i class="socials__item fab fa-instagram"></i>
+                <i class="socials__item fab fa-youtube-square"></i>
+              </div>
+            </div>
+          </div>
+          <div class="footer__copyrights col container">
+            <p class="copyrights">2020 &#169; SeaBrokers LTD</p>
+            <p class="copyrights">
+              Founded in May of 2007, our company is a trusted community
+              marketplace for people to send goods around the world.
+              SeaBrokers.com helps to arrange the international cargo delivery
+              from 1m³ or 50 kg till shiploads. Thanks to world-class customer
+              service and a growing community of cargo agents, SeaBrokers.com is
+              the easiest way for people to ship their goods overseas, or to
+              offer free space in the container, truck or vessel to millions of
+              consignors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/1b43359f54.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+    <script src="../back/index.js"></script>
+  </body>
+</html>

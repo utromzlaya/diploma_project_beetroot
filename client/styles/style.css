@@ -1,0 +1,286 @@
+p {
+    margin: 0;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+
+    color: #15354E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* header */
+
+.header {
+    background: #FAFCFF;
+    box-shadow: 0px 4px 20px #EEF5FF;
+
+    font-weight: 600;
+    color: #0053BF;
+}
+
+.nav-link {
+    font-size: 16px;
+    transition: all .7s;
+    border-bottom: 1px solid transparent;
+
+}
+
+.active,
+.nav-link:hover {
+    border-bottom: 1px solid #0053BF;
+}
+
+.navbar__logo {
+    color: #0053BF;
+}
+
+.socials__item {
+
+    margin-right: 5px;
+}
+
+.socials__item:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/* main */
+.main {
+    height: 100%;
+}
+
+.main__promo {
+    display: flex;
+    align-items: center;
+}
+
+.promo__text {
+    flex: 0 0 50%;
+}
+
+.promo__img img {
+    display: block;
+    max-width: 100%;
+}
+
+.about__title {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0053BF;
+    text-transform: uppercase;
+}
+
+.about__text {
+    text-align: justify;
+}
+
+.about__text-scroll {
+    font-size: 20px;
+}
+
+.about__btn {
+    font-size: 18px;
+}
+
+
+/* scroll */
+.text-scroll__area {
+    position: relative;
+    overflow-y: scroll;
+    height: 150px;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar {
+    width: 9px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#30cfd0), to(#120867));
+    background-image: -webkit-linear-gradient(bottom, #30cfd0 0%, #120867 100%);
+    background-image: linear-gradient(to top, #30cfd0 0%, #120867 100%);
+}
+
+.scrollbar-morpheus-den {
+    scrollbar-color: #120867 #F5F5F5;
+}
+
+/* scroll end */
+
+
+/* promotion */
+
+.promotion {
+    height: 100%;
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+}
+
+.promotion__card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* contact  */
+.contact {
+    background-color: #B9DEFF;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-inner {
+    display: flex;
+}
+
+.contact__promo {
+    width: 100%;
+}
+
+.contact__img img {
+    display: block;
+    max-width: 100%;
+}
+
+.contact__info {
+    width: 100%;
+}
+
+
+.card__text {
+    font-size: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.info__text {
+    font-size: 16px;
+}
+
+.contact__form {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input__item {
+    margin-bottom: 10px;
+}
+
+.form__btn {
+    width: 100%;
+}
+
+/* footer  */
+
+.footer-inner {
+    padding: 50px 0;
+
+}
+
+.nav__list {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.list__title {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.list__item {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.list__item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copyrights {
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+@media (min-width: 768px) {
+
+    .contact__promo {
+        width: 75%;
+    }
+
+    .contact__info {
+        width: 50%;
+    }
+
+    .contact__form {
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    .input__item {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .form__btn {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .promotion {
+        height: 100vh;
+    }
+
+    .promotion__card {
+        width: 50%;
+    }
+
+    /* .title-info {
+            margin-top: 100px;
+        } */
+    .info__title {
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .about__title {
+        font-size: 40px;
+        text-align: center;
+    }
+}
